@@ -1,0 +1,9 @@
+a=3
+b=4
+print("before swapping\n");
+print("a="+str(a)+"\nb="+str(b))
+a=a+b
+b=a-b
+a=a-b
+print("after swapping\n");
+print("a="+str(a)+"\nb="+str(b))
