@@ -1,0 +1,4 @@
+  
+def details(name,id):
+    print(name,id)
+details(name="ABC",id="CS064")  
