@@ -1,12 +1,15 @@
-a = float(input("Enter first number: "))
-b = float(input("Enter second number: "))
-c = float(input("Enter third number: "))
- 
-if (a > b) and (a > z):
-   largest = a
-elif (b > a) and (b > a):
-   largest = b
-else:
-   largest = c
- 
-print("The largest number is",largest)
+  
+a = int(input("Enter the first number::"))
+b = int(input("Enter the second number::"))
+c = int(input("Enter the third number::"))
+
+if a>b:
+  if a>c:
+    print("a is greater")
+  else:
+    print("c is greater")
+else: 
+  if b>c:
+    print("b is greater")
+  else:
+    print("c is greater")
